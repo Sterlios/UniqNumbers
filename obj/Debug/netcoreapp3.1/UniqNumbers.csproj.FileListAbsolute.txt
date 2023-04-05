@@ -1,0 +1,14 @@
+D:\Programming\Projects\UniqNumbers\UniqNumbers\bin\Debug\netcoreapp3.1\UniqNumbers.exe
+D:\Programming\Projects\UniqNumbers\UniqNumbers\bin\Debug\netcoreapp3.1\UniqNumbers.deps.json
+D:\Programming\Projects\UniqNumbers\UniqNumbers\bin\Debug\netcoreapp3.1\UniqNumbers.runtimeconfig.json
+D:\Programming\Projects\UniqNumbers\UniqNumbers\bin\Debug\netcoreapp3.1\UniqNumbers.runtimeconfig.dev.json
+D:\Programming\Projects\UniqNumbers\UniqNumbers\bin\Debug\netcoreapp3.1\UniqNumbers.dll
+D:\Programming\Projects\UniqNumbers\UniqNumbers\bin\Debug\netcoreapp3.1\UniqNumbers.pdb
+D:\Programming\Projects\UniqNumbers\UniqNumbers\obj\Debug\netcoreapp3.1\UniqNumbers.csproj.AssemblyReference.cache
+D:\Programming\Projects\UniqNumbers\UniqNumbers\obj\Debug\netcoreapp3.1\UniqNumbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\UniqNumbers\UniqNumbers\obj\Debug\netcoreapp3.1\UniqNumbers.AssemblyInfoInputs.cache
+D:\Programming\Projects\UniqNumbers\UniqNumbers\obj\Debug\netcoreapp3.1\UniqNumbers.AssemblyInfo.cs
+D:\Programming\Projects\UniqNumbers\UniqNumbers\obj\Debug\netcoreapp3.1\UniqNumbers.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\UniqNumbers\UniqNumbers\obj\Debug\netcoreapp3.1\UniqNumbers.dll
+D:\Programming\Projects\UniqNumbers\UniqNumbers\obj\Debug\netcoreapp3.1\UniqNumbers.pdb
+D:\Programming\Projects\UniqNumbers\UniqNumbers\obj\Debug\netcoreapp3.1\UniqNumbers.genruntimeconfig.cache
