@@ -19,8 +19,8 @@ namespace UniqNumbers
             MainMenu mainMenu = new MainMenu(fileManagerModel, handler, parametersPresenter);
             ControlListener controlListener = new ControlListener(mainMenu);
 
-            fileManagerModel.InitParameters(parametersPresenter);
-            handler.InitParameters(parametersPresenter);
+            fileManagerModel.InitParametersPresenter(parametersPresenter);
+            handler.InitParametersPresenter(parametersPresenter);
             fileManagerModel.Enable();
             mainMenu.Enable();
 

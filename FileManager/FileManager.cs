@@ -39,7 +39,7 @@ namespace UniqNumbers
                 _parametersPresenter.EnteredCountFiles -= OnEnteredCountFiles;
         }
 
-        public void InitParameters(ParametersPresenter parametersPresenter)
+        public void InitParametersPresenter(ParametersPresenter parametersPresenter)
         {
             _parametersPresenter = parametersPresenter;
 

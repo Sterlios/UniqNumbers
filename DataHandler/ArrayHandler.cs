@@ -48,7 +48,7 @@ namespace UniqNumbers.DataHandler
 
         public event Action<TimeSpan> CalculatedTime;
 
-        public void InitParameters(ParametersPresenter parametersPresenter)
+        public void InitParametersPresenter(ParametersPresenter parametersPresenter)
         {
             _parametersPresenter = parametersPresenter;
 
