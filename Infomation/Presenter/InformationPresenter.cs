@@ -9,9 +9,9 @@ namespace UniqNumbers.Infomation.Presenter
     {
         private InformationView _view;
         private FileManager _fileManagerModel;
-        private ArrayHandler _handler;
+        private StreamHandler _handler;
 
-        public InformationPresenter(InformationView view, FileManager fileManagerModel, ArrayHandler handler)
+        public InformationPresenter(InformationView view, FileManager fileManagerModel, StreamHandler handler)
         {
             _view = view;
             _fileManagerModel = fileManagerModel;

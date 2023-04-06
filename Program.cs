@@ -1,5 +1,7 @@
 ﻿using System;
 using UniqNumbers.DataHandler;
+using UniqNumbers.DataHandler.Filter;
+using UniqNumbers.DataHandler.Sort;
 using UniqNumbers.Infomation.Presenter;
 using UniqNumbers.Infomation.View;
 using UniqNumbers.Menu.Controller.Type;
@@ -13,7 +15,14 @@ namespace UniqNumbers
             Console.CursorVisible = false;
 
             ParametersPresenter parametersPresenter = new ParametersPresenter();
-            ArrayHandler handler = new ArrayHandler();
+            StreamHandler handler = new StreamHandler(
+                new FileHandler(),
+                new FilterHandler[]{
+                    new ModuloHandler(),
+                    new UniqHandler()
+                },
+                new ArrayHandler(
+                    new SortByDesc()));
             FileManager fileManagerModel = new FileManager();
             InformationPresenter informationPresenter = new InformationPresenter(new InformationView(), fileManagerModel, handler);
             MainMenu mainMenu = new MainMenu(fileManagerModel, handler, parametersPresenter);

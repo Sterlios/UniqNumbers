@@ -16,12 +16,12 @@ namespace UniqNumbers.Menu.Controller.Type
             new ExitMenu()
         };
         private FileManager _fileManagerModel;
-        private ArrayHandler _handler;
+        private StreamHandler _handler;
         private ParametersPresenter _parametersPresenter;
 
         private MenuController _selectedItem;
 
-        public MainMenu(FileManager fileManagerModel, ArrayHandler handler, ParametersPresenter parametersPresenter) : base(_title, _items)
+        public MainMenu(FileManager fileManagerModel, StreamHandler handler, ParametersPresenter parametersPresenter) : base(_title, _items)
         {
             _fileManagerModel = fileManagerModel;
             _handler = handler;
